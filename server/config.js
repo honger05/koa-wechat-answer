@@ -41,4 +41,6 @@ const CONF = {
     wxLoginExpires: 7200
 }
 
+console.log('NODE_ENV: ' + process.env.NODE_ENV)
+
 module.exports = process.env.NODE_ENV === 'local' ? Object.assign({}, CONF, require('./config.local')) : CONF

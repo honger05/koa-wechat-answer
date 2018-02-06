@@ -5,7 +5,7 @@
     "main": "app.js",
     "scripts": {
         "start": "pm2 start process.prod.json --no-daemon",
-        "local-dev": "nodemon --config nodemon.json app.js",
+        "dev": "nodemon --config nodemon.json app.js",
         "initdb": "NODE_ENV=local node tools/initdb.js"
     },
     "author": "Jason",
