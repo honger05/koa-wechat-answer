@@ -1,0 +1,55 @@
+{
+	"client": "./client",
+	"svr": "./server",
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wx94d6f2e260f23f05",
+	"projectname": "%E5%A4%B4%E8%84%91%E9%A3%8E%E6%9A%B4",
+	"libVersion": "1.4.4",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "123",
+					"pathName": "pages/entry/entry",
+					"query": "",
+					"scene": "1044",
+					"shareInfo": {
+						"groupName": "测试模拟群2",
+						"shareName": "lFiISuN5RhgJVXnMSre_p1SpGjfbnDwpeO0Pu-T-8fw@cr4dev",
+						"shareKey": "Ea0iaYi9oGsiIDhIfPLdnaZGqJC9BbQREU4EjevV-PQCOl237si0nM1Al55O_Tu6coYxGojsaAwnzAGz4gSPGw~~"
+					}
+				},
+				{
+					"id": 1,
+					"name": "custom",
+					"pathName": "pages/custom_room/custom_room",
+					"query": "",
+					"scene": "1044",
+					"shareInfo": {
+						"groupName": "测试模拟群2",
+						"shareName": "lFiISuN5RhgJVXnMSre_p1SpGjfbnDwpeO0Pu-T-8fw@cr4dev",
+						"shareKey": "Ea0iaYi9oGsiIDhIfPLdnaZGqJC9BbQREU4EjevV-PQCOl237si0nM1Al55O_Tu6coYxGojsaAwnzAGz4gSPGw~~"
+					}
+				}
+			]
+		}
+	}
+}
